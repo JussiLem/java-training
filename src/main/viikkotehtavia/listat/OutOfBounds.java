@@ -1,11 +1,18 @@
 package main.viikkotehtavia.listat;
 
+import java.util.ArrayList;
+
 public class OutOfBounds {
     public static void main(String[] args) {
+        ArrayList<Integer> array = new ArrayList<Integer>(10);
 
-        int ar[] = {1, 2, 3, 4, 5};
-        for (int i=0; i<=ar.length; i++)
-            System.out.println(ar[i]);
+        int count = 100 * 400;
+        while (count > 0){
+            array.add( 0 );
+            count = count - 1;
+            array.add(count, 2);
+        }
 
+        array.add(2, count);
     }
 }

@@ -1,4 +1,13 @@
 package main.viikkotehtavia.poikkeukset;
 
-public class VirheellinenAikaPoikkeus {
+/* VirheellinenAikaPoikkeus perii RuntimeException-luokan,
+ * eli sitä voidaan käyttää poikkeuksena: */
+public class VirheellinenAikaPoikkeus extends RuntimeException {
+
+    public VirheellinenAikaPoikkeus(String virheviesti) {
+
+        // Annetaan virheilmoitus eteenpäin yläluokan konstruktorille
+        super(virheviesti);
+
+    }
 }

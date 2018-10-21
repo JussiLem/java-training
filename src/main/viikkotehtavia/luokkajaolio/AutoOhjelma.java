@@ -11,6 +11,16 @@ package main.viikkotehtavia.luokkajaolio;
 public class AutoOhjelma {
 
     public static void main(String[] args) {
+        Auto auto1 = new Auto("Tesla");
+        auto1.aja(100);
+
+        Auto auto2 = new Auto("BMW");
+        auto2.aja(98);
+
+        auto1.aja(23);
+
+        System.out.println(auto1.toString());
+        System.out.println(auto2.toString());
 
     }
 }
