@@ -1,4 +1,4 @@
-package main.muita;
+package main.muita.metodit;
 
 import java.util.Scanner;
 

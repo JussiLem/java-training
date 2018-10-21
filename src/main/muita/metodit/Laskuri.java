@@ -1,4 +1,4 @@
-package main.muita;
+package main.muita.metodit;
 
 public class Laskuri {
     public static void main(String[] args) {
