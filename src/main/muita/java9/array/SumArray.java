@@ -1,4 +1,4 @@
-package main.muita.java9;
+package main.muita.java9.array;
 // Fig 7.5: SumArray.java
 // Computing the sum of the elements of an array
 public class SumArray {

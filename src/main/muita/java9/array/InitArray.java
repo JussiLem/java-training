@@ -1,4 +1,4 @@
-package main.muita.java9;
+package main.muita.java9.array;
 //Fig 7.4: InitArray.java
 // Initializing the elements of an array to default values of zero.
 

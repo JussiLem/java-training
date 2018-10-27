@@ -1,4 +1,4 @@
-package main.muita.java9;
+package main.muita.java9.array;
 // Fig 7.13: PassArray.java
 // Passing arrays and individual array elements to methods.
 public class PassArray {
