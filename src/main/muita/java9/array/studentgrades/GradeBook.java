@@ -1,4 +1,4 @@
-package main.muita.java9.studentgrades;
+package main.muita.java9.array.studentgrades;
 // Fig. 7.14: GradeBook.java
 // GradeBook class using an array to store test grades
 public class GradeBook {

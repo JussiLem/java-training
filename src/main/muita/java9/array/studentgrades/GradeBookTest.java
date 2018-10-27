@@ -1,4 +1,4 @@
-package main.muita.java9.studentgrades;
+package main.muita.java9.array.studentgrades;
 // Fig 7.15: GradeBookTest.java
 // GradeBookTest creates a GradeBook object using an array of grades,
 // then invokes method processGrades to analyze them.
